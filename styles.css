@@ -36,22 +36,39 @@ a:hover{
    font-size: 2.5rem;
    width: 90%;
    margin: 0 auto;
+   background-color: white;
+ }
+ img{
+   margin-left: 5%;
+   text-align: center;
+   position: sticky;
+   top: 0;
+   z-index: -1;
  }
  .abouttext{
    font-size: 2.5rem;
+   margin-bottom: 0;
+   padding-bottom: 5rem;
  }
  .section1{
    font-size: 2.5rem;
    width: 90%;
    margin: 0 auto;
+   background-color: white;
  }
  .section1 ul{
    font-size: 2.5rem;
+   margin-bottom: 0px;
+   padding-bottom: 5rem;
  }
 .section2{
    font-size: 2.5rem;
    width: 90%;
    margin: 0 auto;
+   background-color: white;
+}
+.compinf{
+   margin-top: 0;
 }
 .footer{
    background-color: black;
