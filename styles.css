@@ -14,10 +14,11 @@ body {
     width: 90%;
     margin: 0 auto;
  }
- header>div {
+
+ /* header>div {
    display: grid;
    grid-template-columns: repeat(1, 1fr);
-}
+} */
 
 header>div>nav {
    display: flex;
@@ -47,13 +48,7 @@ a:hover {
    margin: 0 auto;
    background-color: white;
  }
- img{
-   margin-left: 5%;
-   /* text-align: center;
-   position: sticky;
-   top: 0;
-   z-index: -1; */
- }
+ 
  .abouttext{
    font-size: 2.5rem;
    margin-bottom: 0;
@@ -70,12 +65,7 @@ a:hover {
    margin-bottom: 0px;
    padding-bottom: 5rem;
  }
-.section2{
-   font-size: 2.5rem;
-   width: 90%;
-   margin: 0 auto;
-   background-color: white;
-}
+
 .compinf{
    margin-top: 0;
 }
@@ -104,3 +94,87 @@ td {
    padding: 1.5rem 1rem 1.5rem 1rem;
    text-align: center
 }
+
+/* Для Пк */
+@media (min-width: 801px) {
+     header>div>nav {
+       font-size: 2.5rem;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   img{
+      margin-left: 5%;
+   }
+   .section2{
+      font-size: 2.5rem;
+      width: 90%;
+      margin: 0 auto;
+      background-color: white;
+   }
+}
+
+/* Для планшетов */
+@media (max-width: 799px) {
+   header>div>nav {
+     font-size: 2.5rem;
+     display: flex;
+     justify-content: space-between;
+   }
+   img{
+      margin-left: 5%;
+      max-width: 500px;
+   }
+   .section2{
+      font-size: 2.5rem;
+      width: 90%;
+      margin: 0 auto;
+      background-color: white;
+   }
+ }
+ 
+ /* Для смартфонов */
+ @media (max-width: 599px) {
+   header>div>nav {
+     font-size: 2.75rem;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   img{
+      width: 100%;
+   }
+   .section2{
+      font-size: 1.5rem;
+      width: 90%;
+      margin: 0 auto;
+      background-color: white;
+   }
+   .table{
+      border: 3px solid #000000dd;
+      border-collapse: collapse;
+      width: 590px;
+   }
+ }
+
+ @media (max-width: 399px) {
+   header>div>nav {
+      font-size: 2.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    img{
+       width: 100%;
+    }
+   .section2{
+      font-size: 1.25rem;
+      width: 90%;
+      margin: 0 auto;
+      background-color: white;
+   }
+   .table{
+      border: 3px solid #000000dd;
+      border-collapse: collapse;
+      width: 390px;
+   }
+ }
